@@ -1,5 +1,7 @@
 
 
+@import url(https://fonts.googleapis.com/css?family=Satisfy);
+
 body
 {
     font-size: 12px;
@@ -25,9 +27,20 @@ h3
     font-weight: bold;
 }
 
+.cursive-text
+{
+    font-family: 'Satisfy', cursive;
+    font-size: 16px;
+}
+
 .blue
 {
     color: #5982BD;
+}
+
+.cyan
+{
+    color: #139ae5;
 }
 
 .grey
@@ -59,9 +72,14 @@ a
     max-width: 500px;
 }
 
-.bullet
+.bullet-spacing
 {
     margin-right: 5px;
+}
+
+.checklist-bullet
+{
+    list-style-image: url('img/bullet.jpg');
 }
 
 .clear-highlighted-box
@@ -81,8 +99,11 @@ a
     border-color: #FFE1A6;
 }
 
-.checklist-bullet
+@media (min-width:992px)
 {
-    list-style-image: url('img/bullet.jpg');
+    .leveling-padding
+    {
+        padding-top: 20px;
+    }
 }
 
