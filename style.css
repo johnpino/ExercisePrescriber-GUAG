@@ -53,6 +53,12 @@ h3
     color: #ffba00;
 }
 
+.aquamarine
+{
+    color: #04a089;
+}
+
+
 .white
 {
     color: #ffffff;
@@ -88,6 +94,13 @@ a
     border-radius: 7px;
     padding: 15px 15px 5px;
     color: #ffffff;
+}
+
+.blue-highlighted-box
+{
+    background-color: #eff5f4;
+    border-radius: 7px;
+    padding: 15px 15px 5px;
 }
 
 .bordered-highlighted-box
