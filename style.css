@@ -58,6 +58,10 @@ h3
     color: #04a089;
 }
 
+.violet
+{
+    color: #8e0063;
+}
 
 .white
 {
@@ -96,9 +100,16 @@ a
     color: #ffffff;
 }
 
-.blue-highlighted-box
+.aquamarine-highlighted-box
 {
     background-color: #eff5f4;
+    border-radius: 7px;
+    padding: 15px 15px 5px;
+}
+
+.blue-highlighted-box
+{
+    background-color: #edf4f3;
     border-radius: 7px;
     padding: 15px 15px 5px;
 }
@@ -119,4 +130,10 @@ a
         padding-top: 20px;
     }
 }
+
+.spacer
+{
+    margin-top: 15px;
+}
+
 
